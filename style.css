@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left bottom,
+     #9a7b7b,hsl(0, 6%, 93%),#786262);
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+#jok-generator{
+    
+    background-color: #c0b5b5;
+    padding: 10px;
+    min-width: 60%;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.5);
+}
+#head{
+    
+margin-top: 0;
+font-size: 35px;
+text-shadow:5px 5px 15px rgb(0, 0, 0 ,0.3);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 700;
+
+
+}
+.btn{
+    background-color: #f6eeeedf;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 2px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.btn:hover{
+    box-shadow: 0 4px 4px rgb(0, 0, 0, 0.5);
+
+    background-color: #b6a6a6;
+}
